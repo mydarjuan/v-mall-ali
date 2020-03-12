@@ -5,3 +5,4 @@
 /mall-model/target/
 /mall-service/target/
 /mall-web/target/
+*.log
