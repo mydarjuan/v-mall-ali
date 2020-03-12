@@ -8,8 +8,10 @@
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
         <module name="mall-api" />
+        <module name="mall-interface" />
         <module name="mall-dao" />
         <module name="mall-service" />
+        <module name="mall-core" />
         <module name="mall-model" />
         <module name="mall-gateway" />
         <module name="mall-web" />
@@ -19,8 +21,10 @@
   <component name="JavacSettings">
     <option name="ADDITIONAL_OPTIONS_OVERRIDE">
       <module name="mall-api" options="-parameters" />
+      <module name="mall-core" options="-parameters" />
       <module name="mall-dao" options="-parameters" />
       <module name="mall-gateway" options="-parameters" />
+      <module name="mall-interface" options="-parameters" />
       <module name="mall-model" options="-parameters" />
       <module name="mall-service" options="-parameters" />
       <module name="mall-web" options="-parameters" />
