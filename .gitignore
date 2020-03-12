@@ -1,0 +1,7 @@
+# Project exclude paths
+/mall-api/target/
+/mall-dao/target/
+/mall-gateway/target/
+/mall-model/target/
+/mall-service/target/
+/mall-web/target/
