@@ -8,11 +8,11 @@
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
         <module name="mall-api" />
-        <module name="mall-interface" />
+        <module name="mall-model" />
         <module name="mall-dao" />
         <module name="mall-service" />
         <module name="mall-core" />
-        <module name="mall-model" />
+        <module name="mall-interface" />
         <module name="mall-gateway" />
         <module name="mall-web" />
       </profile>
